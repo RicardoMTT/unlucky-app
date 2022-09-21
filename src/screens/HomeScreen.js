@@ -31,6 +31,7 @@ const HomeScreen = () => {
         })}
         onSubmit={(values, {resetForm}) => {
           //Keyboard.dismiss();
+          console.log('Eee');
           addPlayer(values.player);
           resetForm();
         }}>
